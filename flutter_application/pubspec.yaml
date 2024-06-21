@@ -1,0 +1,27 @@
+name: videos_short
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.0.2
+  video_player: ^2.8.7
+  image_picker: ^0.8.4+4
+  video_player_web: ^2.0.2
+  file_picker: ^4.1.4
+  path_provider: ^2.0.9
+  provider: ^6.0.1
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
